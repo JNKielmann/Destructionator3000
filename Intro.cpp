@@ -1,0 +1,47 @@
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////Bless of Magic////////////////////////////////////////////////////
+/* Dateiname: Intro.cpp
+   Erstellungsdatum: 11.9.2010
+   Autor: Jan Niklas Kielmann
+   Beschreibung: Implementation des Intros
+*/
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+//Letzte änderungen:
+/*
+
+*/
+
+#include "Intro.h"
+#include "Game.h"
+
+
+CIntro::CIntro(CGame* Game, sf::RenderWindow* Window) : CGameState(Game, Window)
+{
+	
+}
+
+
+CIntro::~CIntro(void)
+{
+}
+
+void CIntro::Init( void* InitializationData )
+{
+	
+}
+
+void CIntro::Exit()
+{
+
+}
+
+void CIntro::Move( float ElapsedTime )
+{
+	
+}
+
+void CIntro::Render()
+{
+	
+}

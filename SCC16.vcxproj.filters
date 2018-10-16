@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\BulletTyps">
+      <UniqueIdentifier>{20b873f5-3e1e-4549-a037-72cd802edb55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BulletTypes">
+      <UniqueIdentifier>{000e69b1-5780-4bf7-bed6-0449b94357a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\WeaponSystems">
+      <UniqueIdentifier>{c917a9dc-add6-45fa-8b4f-0eabf7d39c01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WeaponSystems">
+      <UniqueIdentifier>{6ff958a0-0c14-454f-946f-6758ae5da796}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Enemys">
+      <UniqueIdentifier>{0c30ac8d-51ab-440d-8efa-bd3f598bc1de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Enemys">
+      <UniqueIdentifier>{8a26cd6f-38c5-4532-981a-749c361f1782}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Intro.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NormalBullet.cpp">
+      <Filter>Source Files\BulletTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="NormalWeaponSystem.cpp">
+      <Filter>Source Files\WeaponSystems</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Source Files\Enemys</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicEnemy.cpp">
+      <Filter>Source Files\Enemys</Filter>
+    </ClCompile>
+    <ClCompile Include="Explosion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ExplosionManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundBufferManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Bar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PlasmaBullet.cpp">
+      <Filter>Source Files\BulletTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="PlasmaWeaponSystem.cpp">
+      <Filter>Source Files\WeaponSystems</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2d.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LaserBullet.cpp">
+      <Filter>Source Files\BulletTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="SuicideEnemy.cpp">
+      <Filter>Source Files\Enemys</Filter>
+    </ClCompile>
+    <ClCompile Include="BigRocket.cpp">
+      <Filter>Source Files\BulletTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="RocketWeaponSystem.cpp">
+      <Filter>Source Files\WeaponSystems</Filter>
+    </ClCompile>
+    <ClCompile Include="PowerUp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PowerUpManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StealthEnemy.cpp">
+      <Filter>Source Files\Enemys</Filter>
+    </ClCompile>
+    <ClCompile Include="CargoShip.cpp">
+      <Filter>Source Files\Enemys</Filter>
+    </ClCompile>
+    <ClCompile Include="button.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Shield.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Instruction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Intro.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Vektor2d.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>Header Files\BulletTyps</Filter>
+    </ClInclude>
+    <ClInclude Include="NormalBullet.h">
+      <Filter>Header Files\BulletTyps</Filter>
+    </ClInclude>
+    <ClInclude Include="NormalWeaponSystem.h">
+      <Filter>Header Files\WeaponSystems</Filter>
+    </ClInclude>
+    <ClInclude Include="WeaponSystem.h">
+      <Filter>Header Files\WeaponSystems</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Header Files\Enemys</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicEnemy.h">
+      <Filter>Header Files\Enemys</Filter>
+    </ClInclude>
+    <ClInclude Include="Explosion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ExplosionManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundBufferManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Bar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlasmaBullet.h">
+      <Filter>Header Files\BulletTyps</Filter>
+    </ClInclude>
+    <ClInclude Include="PlasmaWeaponSystem.h">
+      <Filter>Header Files\WeaponSystems</Filter>
+    </ClInclude>
+    <ClInclude Include="LaserBullet.h">
+      <Filter>Header Files\BulletTyps</Filter>
+    </ClInclude>
+    <ClInclude Include="SuicideEnemy.h">
+      <Filter>Header Files\Enemys</Filter>
+    </ClInclude>
+    <ClInclude Include="BigRocket.h">
+      <Filter>Header Files\BulletTyps</Filter>
+    </ClInclude>
+    <ClInclude Include="RocketWeaponSystem.h">
+      <Filter>Header Files\WeaponSystems</Filter>
+    </ClInclude>
+    <ClInclude Include="PowerUp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PowerUpManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StealthEnemy.h">
+      <Filter>Header Files\Enemys</Filter>
+    </ClInclude>
+    <ClInclude Include="CargoShip.h">
+      <Filter>Header Files\Enemys</Filter>
+    </ClInclude>
+    <ClInclude Include="button.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Shield.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Instruction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+</Project>
